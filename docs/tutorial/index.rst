@@ -1,10 +1,10 @@
-Basic Usage of python-rocksdb
+Basic Usage of pybind11-rocksdb
 *****************************
 
 Column Family
 =============   
 
-python-rocksdb also supports column family ::
+pybind11-rocksdb also supports column family ::
 
     db = pyrocksdb.DB()
     opts = pyrocksdb.Options()

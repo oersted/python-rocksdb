@@ -108,7 +108,7 @@ class CMakeBuild(build_ext):
         copymode(src_file, dest_file)
 
 setup(
-    name='python-rocksdb',
+    name='pybind11-rocksdb',
     version='1.0',
     author='Ming Hsuan Tu',
     author_email='qrnnis2623891@gmail.com',

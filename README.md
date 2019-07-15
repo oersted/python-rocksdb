@@ -5,7 +5,7 @@ Python bindings for RocksDB.
 
 This project is under development, and more features are coming soon.
 
-For any other usage, please follow https://twmht.github.io/python-rocksdb/index.html 
+For any other usage, please follow https://twmht.github.io/pybind11-rocksdb/index.html 
 
 Quick Install
 -------------
@@ -14,8 +14,8 @@ Quick install for debian/ubuntu like linux distributions.
 
 
 ```
-git clone https://github.com/twmht/python-rocksdb.git --recursive -b pybind11
-cd python-rocksdb
+git clone https://github.com/twmht/pybind11-rocksdb.git --recursive -b pybind11
+cd pybind11-rocksdb
 python setup.py install
 ```
 

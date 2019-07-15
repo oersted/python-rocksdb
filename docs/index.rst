@@ -1,4 +1,4 @@
-Welcome to python-rocksdb's documentation!
+Welcome to pybind11-rocksdb's documentation!
 ==========================================
 
 Overview
@@ -45,9 +45,9 @@ Tested with python3.7
 Contributing
 ------------
 
-Source can be found on `github <https://github.com/twmht/python-rocksdb/tree/pybind11>`_.
+Source can be found on `github <https://github.com/twmht/pybind11-rocksdb/tree/pybind11>`_.
 Feel free to fork and send pull-requests or create issues on the
-`github issue tracker <https://github.com/twmht/python-rocksdb/issues>`_
+`github issue tracker <https://github.com/twmht/pybind11-rocksdb/issues>`_
 
 
 Indices and tables
