@@ -13,6 +13,7 @@ SET (USE_RTTI ON)
 add_subdirectory(lib/rocksdb)
 
 SET ( CMAKE_CXX_FLAGS "-std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-error=deprecated-copy -Wno-error=pessimizing-move -Wno-error=sign-compare")
 include_directories(lib/rocksdb)
 include_directories(lib/rocksdb/include)
 pybind11_add_module(pyrocksdb ${SOURCE_DIR}/pyrocksdb.cpp ${SOURCE_DIR}/db.cpp ${SOURCE_DIR}/options.cpp ${SOURCE_DIR}/slice.cpp ${SOURCE_DIR}/status.cpp ${SOURCE_DIR}/write_batch.cpp ${SOURCE_DIR}/iterator.cpp ${SOURCE_DIR}/filter_policy.cpp ${SOURCE_DIR}/merge_operator.cpp ${SOURCE_DIR}/transaction_db.cpp ${SOURCE_DIR}/snapshot.cpp)
